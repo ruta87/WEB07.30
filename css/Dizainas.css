@@ -1,0 +1,42 @@
+.minebar{
+    float:top;
+    position: center;
+    padding: 30px;
+    padding-bottom: 40px;
+    padding-colour:blue;
+    background-color: aquamarine;
+    font-size: x-large;
+    font-feature-settings: normal;
+}
+.elem{
+    float: left;
+    margin: 10px;
+    padding: 20px;
+    list-style: disc;
+}
+
+.rightSide{
+    float:top;
+    padding: 50px;
+    position: center;
+    background-color: bisque;
+}
+.latestWork{
+    bottom: 0;
+    position: absolute;
+    background-color: blanchedalmond;
+}
+.paveiksliukas{
+    bottom: 0;
+    position: absolute;
+    background-color: burlywood;
+}
+.teises{
+    bottom: 0;
+    position: absolute;
+    background-color: cornsilk;
+}
+.nice{
+    float: contour;
+    position: center;
+}

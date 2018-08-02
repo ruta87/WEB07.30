@@ -1,0 +1,27 @@
+.Juodas {
+    background-color: black;
+}
+.Baltas{
+    background-color: white;
+}
+.Zalias{
+    background-color: green;
+}
+
+.cell{
+    width: 100px;
+    height: 100px;
+}
+
+/*
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: black;}
+td {
+    width: 40px; height: 40px;
+}
+tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
+    background: white;
+}
+*/

@@ -1,0 +1,12 @@
+body{
+    background-color: lavender;
+    color: #5b6353;
+    font-family: "Times New Roman";
+    font-size: medium;
+    text-align: justify-all;
+    text-decoration:dotted;
+    text-transform: initial;
+    letter-spacing: normal;
+    line-height: normal;
+    direction: ltr;
+}

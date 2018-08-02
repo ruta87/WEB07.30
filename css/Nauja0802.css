@@ -1,0 +1,22 @@
+.Kazkas{
+    position: center;
+    border-bottom-color:yellowgreen;
+    border-bottom-color: green;
+    border-style: groove;
+    padding: 5px 8px 9px;
+    background-color: antiquewhite;
+}
+.DarVienas{
+    position: relative;
+    border-style: groove;
+    border-bottom-color: yellowgreen;
+    padding: 10px;
+    background-color: lavender;
+}
+.Naujas{
+    position: absolute;
+    border-style: outset;
+    border-bottom-color: yellowgreen;
+    padding: 10px;
+    background-color: aliceblue;
+}
