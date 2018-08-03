@@ -1,0 +1,12 @@
+@keyframes example{
+    0 % {background-color: lavender;}
+    30 % {background-color:purple;}
+    50 % {background-color: aliceblue}
+    100 % {background-color: burlywood}
+}
+
+div{
+    background-color: aquamarine;
+    animation-name: example;
+    animation-duration: 4s;
+}
