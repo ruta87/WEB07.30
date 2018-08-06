@@ -1,0 +1,14 @@
+body{
+    background-image: url("business.jpg");
+}
+.meniuMain ul{
+    display:flex;
+  justify-content: space-around;
+    background-color: #9fcdff;
+    font-size: larger;
+    font-family: "Times New Roman";
+   padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom-color: #0c5460;
+    margin-bottom: 10px;
+}
