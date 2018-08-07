@@ -1,6 +1,12 @@
 body{
     background-image: url("business.jpg");
 }
+.minebar{
+background-color: #9db59b;
+}
+label{
+    min-width: 250px;
+}
 .meniuMain ul{
     display:flex;
   justify-content: space-around;

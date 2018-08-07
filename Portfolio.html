@@ -26,12 +26,27 @@
         </article>
         <a href="smile.html">Šypsena</a>
     </div>
+    <div class="item">
+    <input type="text" id="vardas" placeholder="Tavo vardas"/><br/>
+    <input type="text" id="amzius" placeholder="Kiek Jums metu?"/><br/>
+    <input type="button" value="Kada gimiau?" onclick="Skaiciuoti()"/><br/>
+    <p>
+        <span id="rezultatas"></span>
+    </p>
+    </div>
+
+    <div class="item">
+        <img src="light-bulb.jpg" alt="Off" onclick="changeImage()" id="lempa" width="220" height="220">
+    </div>
+
     <link rel="stylesheet" href="IK/css/nauja0801.css">
     <link rel="stylesheet" href="IK/css/secondCSS.css">
     <link rel="stylesheet" href="IK/css/animacija.css">
-    <script src="matematika/mat.js"></script>
+
+
 </head>
 <body>
-
+<script src="matematika/mat.js"></script>
+<script src="matematika/lempute.js"></script>
 </body>
 </html>
