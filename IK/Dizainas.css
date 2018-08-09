@@ -1,11 +1,18 @@
 body{
     background-image: url("business.jpg");
 }
-.minebar{
-background-color: #9db59b;
-}
+
 label{
     min-width: 250px;
+    padding-left: 40px;
+}
+.message{
+    min-width: 200px;
+    padding-left: 40px;
+}
+.button{
+    min-width: 200px;
+    padding-left: 40px;
 }
 .meniuMain ul{
     display:flex;
@@ -17,4 +24,18 @@ label{
     padding-top: 10px;
     border-bottom-color: #0c5460;
     margin-bottom: 10px;
+}
+.contact{
+min-width: 300px;
+    padding-left: 300px;
+}
+.rightSide{
+    min-width: 350px;
+    padding-left: 800px;
+}
+.h3{
+    min-width: 300px;
+    padding-top: 50px;
+    padding-left: 800px;
+    border-bottom-color: #6c757d;
 }
