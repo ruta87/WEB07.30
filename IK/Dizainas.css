@@ -1,18 +1,22 @@
 body{
     background-image: url("business.jpg");
+    background-repeat: repeat;
 }
 
 label{
     min-width: 250px;
     padding-left: 40px;
+    font-family: Roboto;
 }
 .message{
     min-width: 200px;
     padding-left: 40px;
+    font-family: Roboto;
 }
 .button{
     min-width: 200px;
     padding-left: 40px;
+    font-family: Roboto;
 }
 .meniuMain ul{
     display:flex;
@@ -24,18 +28,30 @@ label{
     padding-top: 10px;
     border-bottom-color: #0c5460;
     margin-bottom: 10px;
+    font-family: Roboto;
 }
 .contact{
 min-width: 300px;
     padding-left: 300px;
+    font-family: Roboto;
 }
 .rightSide{
     min-width: 350px;
     padding-left: 800px;
+    font-family: Roboto;
 }
 .h3{
     min-width: 300px;
     padding-top: 50px;
     padding-left: 800px;
     border-bottom-color: #6c757d;
+    font-family: Roboto;
+}
+.h1{
+    min-width: 100px;
+    padding-top: 100px;
+    padding-left: 80px;
+    font-family: Roboto;
+    font-size: larger;
+    font-style: italic;
 }
