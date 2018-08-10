@@ -1,17 +1,37 @@
 body{
-    background-image: url("business.jpg");
+    background-image: url("white-wood-planks.jpg");
     background-repeat: repeat;
+    line-height: 1;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
 }
 
 label{
     min-width: 250px;
     padding-left: 40px;
     font-family: Roboto;
+    font-style: normal;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 .message{
     min-width: 200px;
     padding-left: 40px;
     font-family: Roboto;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 .button{
     min-width: 200px;
@@ -23,17 +43,24 @@ label{
   justify-content: space-around;
     background-color: #9fcdff;
     font-size: larger;
-    font-family: "Helvetica Neue";
+    font-family: Roboto;
    padding-bottom: 10px;
     padding-top: 10px;
     border-bottom-color: #0c5460;
     margin-bottom: 10px;
     font-family: Roboto;
+    font-size: larger;
 }
 .contact{
 min-width: 300px;
     padding-left: 300px;
     font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 .rightSide{
     min-width: 350px;
@@ -46,12 +73,51 @@ min-width: 300px;
     padding-left: 800px;
     border-bottom-color: #6c757d;
     font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 .h1{
     min-width: 100px;
-    padding-top: 100px;
-    padding-left: 80px;
+    font-family: Roboto;
+    font-size: large;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    border-style: outset;
+}
+.container-fluid{
+    min-width: 500px;
+    padding-bottom: 30px;
+    margin-outside: 50px;
+    page: auto;
     font-family: Roboto;
     font-size: larger;
-    font-style: italic;
+    border-bottom: white;
+    border-style: groove;
+    background-color: white;
 }
+.card{
+    text-align: left;
+    padding-right: 50px;
+    min-width: 350px;
+    padding-left: 0px;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+}
+.finish{
+    text-align: right;
+    padding-right: 80px;
+    min-width: 350px;
+    padding-left: 500px;
+    position: fixed;
+    padding: 0px;
+    margin: 0px;
+}
+
